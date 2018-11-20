@@ -10,7 +10,6 @@ y = iris.target
 n_samples, n_features = X.shape
 p = list(range(n_samples))
 
-print(p)
 
 random.seed(0)
 random.shuffle(p)
